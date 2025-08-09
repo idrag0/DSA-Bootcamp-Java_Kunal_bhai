@@ -65,7 +65,7 @@ class PathSum {
     return helper(node.left, arr, index + 1) || helper(node.right, arr, index + 1);
   }
 
-  int countPaths(Node node, int sum) {
+  int countPaths(Node node, int sum) {       // Q2 : Path Exists in Binary Tree at Any Nodes
     List<Integer> path = new ArrayList<>();
     return helper(node, sum, path);
   }
