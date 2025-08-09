@@ -46,7 +46,7 @@ class PathSum {
     return Math.max(left, right) + node.val;
   }
 
-  boolean findPath(Node node, int[] arr) {
+  boolean findPath(Node node, int[] arr) {  // find path By kunal Bhaiya
     if (node == null) {
       return arr.length == 0;
     }
